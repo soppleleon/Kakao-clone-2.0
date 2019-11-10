@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700|Noto+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans";
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.header .div {
+  width: 100%;
+  height: 40px;
+}
+
+.sign-in__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sign-in__inputbox {
+  width: 100%;
+}
+.sign-in__main span {
+  margin: 15px 5% 25px auto;
+  margin-left: auto;
+  color: #eb7e8a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.sign-in__main .chat__write-input {
+  width: 90%;
+  margin: 10px 5%;
+  height: 40px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.sign-in__main .sign-in__checkbox {
+  margin-right: auto;
+  border-radius: 8px;
+  margin-left: 5%;
+  font-size: 14px;
+}
+
+.sign-in__buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.sign-in-button {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 60px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in__column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sign-in__buttons .sign-in__or {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.sign-in__buttons .sign-in-button {
+  color: white;
+  background-color: #e2283e;
+  font-size: 12px;
+}
+
+.sign-in__buttons .sign-in-facebook {
+  color: white;
+  background-color: #475a95;
+  width: 45%;
+  border-radius: 60px;
+  height: 35px;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.sign-in__buttons .sign-in-twitter {
+  color: white;
+  background-color: #5da1f2;
+  width: 45%;
+  border-radius: 60px;
+  height: 35px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.sign-in__bottom {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+.bottom__column {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom__column .question {
+  font-size: 12px;
+  height: 20px;
+  opacity: 0.4;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom__column .link {
+  font-size: 14px;
+  height: 20px;
+  color: #eb7e8a;
+  font-weight: 500;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
